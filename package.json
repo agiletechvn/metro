@@ -1,6 +1,6 @@
 {
   "version": "0.20.9",
-  "name": "@tsyeyuanfeng/metro-bundler",
+  "name": "@agiletechvn/metro-bundler",
   "description": "🚇 The JavaScript bundler for React Native.",
   "main": "src/index.js",
   "publishConfig": {
@@ -9,10 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:facebook/metro-bundler.git"
+    "url": "https://github.com/agiletechvn/metro-bundler.git"
   },
   "scripts": {
-    "prepare-release": "test -d build && rm -rf src.real && mv src src.real && mv build src",
+    "prepare-release":
+      "test -d build && rm -rf src.real && mv src src.real && mv build src",
     "cleanup-release": "test ! -e build && mv src build && mv src.real src"
   },
   "dependencies": {
